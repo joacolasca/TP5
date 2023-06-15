@@ -1,0 +1,109 @@
+{
+  "Files": [
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TP5.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TP5.bundle.scp.css"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\Bosque.jpg",
+      "PackagePath": "staticwebassets\\Bosque.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\Casa.jpg",
+      "PackagePath": "staticwebassets\\Casa.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\CasaDentro.webp",
+      "PackagePath": "staticwebassets\\CasaDentro.webp"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\Creditos.jfif",
+      "PackagePath": "staticwebassets\\Creditos.jfif"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\CreditosFondo.jpg",
+      "PackagePath": "staticwebassets\\CreditosFondo.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\Fantasma.jpg",
+      "PackagePath": "staticwebassets\\Fantasma.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\Felicidades.webp",
+      "PackagePath": "staticwebassets\\Felicidades.webp"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\FondoBotones.jpg",
+      "PackagePath": "staticwebassets\\FondoBotones.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\Habitacion.jpg",
+      "PackagePath": "staticwebassets\\Habitacion.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\Habitacion2.jpg",
+      "PackagePath": "staticwebassets\\Habitacion2.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\Habitacion3.jpg",
+      "PackagePath": "staticwebassets\\Habitacion3.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\Habitacion4.jpg",
+      "PackagePath": "staticwebassets\\Habitacion4.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\Home.jpg",
+      "PackagePath": "staticwebassets\\Home.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\MusicaFondo.mp3",
+      "PackagePath": "staticwebassets\\MusicaFondo.mp3"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\Thumbs.db",
+      "PackagePath": "staticwebassets\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\VictoriaFondo.jpg",
+      "PackagePath": "staticwebassets\\VictoriaFondo.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\cajaMisteriosa.jpg",
+      "PackagePath": "staticwebassets\\cajaMisteriosa.jpg"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "Z:\\2023\\Programacion 2023\\TP5 Sala de escape\\wwwroot\\sala4_Acertiijo.webp",
+      "PackagePath": "staticwebassets\\sala4_Acertiijo.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TP5.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TP5.props",
+      "PackagePath": "build\\TP5.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TP5.props",
+      "PackagePath": "buildMultiTargeting\\TP5.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TP5.props",
+      "PackagePath": "buildTransitive\\TP5.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

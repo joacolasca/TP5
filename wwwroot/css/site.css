@@ -1,0 +1,50 @@
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 20px 60px 0px 20px;
+}
+
+footer {
+  position: fixed; 
+  bottom: 0; 
+  margin: 10px 0px 20px 0px;
+}
+*{
+    margin: 10px;
+    border: 0px solid black;
+    padding: 0px;
+}
+header{
+    background-color: aquamarine;
+    color: bisque;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 50px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav a{
+    color: blue;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+nav a:hover{
+    color: goldenrod;
+}

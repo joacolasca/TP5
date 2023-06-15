@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sala de Escape de Terror - Victoria</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-image: url('/VictoriaFondo.jpg');
+      background-size: cover;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .victoria-view {
+      background-color: #333;
+      padding: 40px;
+      border: 2px solid #fff;
+      border-radius: 10px;
+    }
+
+    .victoria-image {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto 20px;
+      background-image: url('/Felicidades.webp');
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+    }
+
+    .victoria-text {
+      margin-bottom: 20px;
+    }
+
+    .victoria-text p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Sala de Escape de Terror</h1>
+
+    <div class="victoria-view">
+      <div class="victoria-image"></div>
+      <div class="victoria-text">
+        <p>¡Felicidades, Victoria!</p>
+        <p>Has logrado escapar de la sala de terror.</p>
+        <p>Eres valiente y has superado todos los desafíos.</p>
+        <p>¡Excelente trabajo!</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Animación de pulsación
+    const victoriaImage = document.querySelector('.victoria-image');
+
+    let scaleFactor = 1;
+    let increasing = true;
+
+    setInterval(() => {
+      if (increasing) {
+        scaleFactor += 0.1;
+      } else {
+        scaleFactor -= 0.1;
+      }
+
+      victoriaImage.style.transform = `scale(${scaleFactor})`;
+
+      if (scaleFactor >= 1.2) {
+        increasing = false;
+      } else if (scaleFactor <= 1) {
+        increasing = true;
+      }
+    }, 200);
+  </script>
+</body>
+</html>

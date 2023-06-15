@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+    <style>
+        body {
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('/Home.jpg'); 
+            background-size: cover;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: rgb(255, 94, 0);
+            float: right;
+            margin-left: 650px;;
+        }
+
+        .room-carousel {
+            width: 500px;
+            height: 400px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .room-carousel img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 1s;
+            float: left;
+        }
+
+        .room-carousel img.active {
+            opacity: 1;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>La Casa Embrujada</h1>
+    <h5>Bienvenido a la siniestra mansión de los horrores, un lugar donde los valientes se aventuran en busca de emociones escalofriantes. Esta casa embrujada, cuyos muros susurran secretos y los pasillos susurran historias, te desafiará a escapar de sus garras infernales.
+A medida que te adentras en la oscuridad, tus sentidos se ven envueltos por una atmósfera pesada y opresiva. El aire está cargado con una sensación sobrenatural, como si los espíritus del pasado te observaran desde las sombras. Los tablones del suelo crujen bajo tus pies, recordándote que no estás solo.
+Los murmullos de la mansión te guían hacia habitaciones macabras, cada una con su propio secreto inquietante. Los espejos te reflejan distorsionados, revelando un mundo alterado en el que la realidad se mezcla con lo sobrenatural. Los retratos en las paredes parecen seguirte con la mirada, como si guardaran un conocimiento oscuro que desean compartir.
+A medida que avanzas, los desafíos se vuelven cada vez más difíciles. Puertas que se cierran violentamente, laberintos de pasillos que parecen interminables y habitaciones trampa que desafían tu cordura. Debes estar atento a cada rincón y confiar en tu ingenio para desentrañar los enigmas y descubrir las claves que te llevarán a la libertad.
+Pero ten cuidado, pues la mansión no quiere dejar escapar a sus intrépidos visitantes. Los fantasmas acechan en cada esquina, susurran maldiciones en tus oídos y desencadenan fenómenos paranormales que te desafiarán a mantener la calma. Solo aquellos con nervios de acero y determinación indomable lograrán salir de esta casa de los horrores con vida.
+¿Te atreverás a enfrentar el desafío? La casa embrujada te espera, ansiosa por poner a prueba tu coraje. Prepárate para escapar de sus garras mortales y descubrir si tienes lo necesario para sobrevivir a esta experiencia terrorífica.</h5>
+    <div class="room-carousel">
+        <img src="/Bosque.Jpg" alt="Habitación 1" class="active"> 
+        <img src="/Casa.Jpg" alt="Habitación 2">
+        <img src="/CasaDentro.webp" alt="Habitación 3">
+    </div>
+
+    <script>
+        const carousel = document.querySelector('.room-carousel');
+        const images = carousel.querySelectorAll('img');
+        let currentIndex = 0;
+
+        function changeRoom() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        setInterval(changeRoom, 3000);
+    </script>
+</body>
+</html>

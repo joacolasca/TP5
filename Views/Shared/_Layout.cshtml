@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        /* Estilos CSS personalizados */
+        header {
+            position: fixed;
+            top: 0;
+            margin-left: -50px;
+            margin-top: -10px;
+            background-image: url('/FondoBotones.jpg');
+            background-size: cover;
+            color: #fff;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href='@Url.Action("Tutorial")'>Tutorial</a></li>
+                <li><a href='@Url.Action("Index")'>Home</a></li>
+                <li><a href='@Url.Action("Comenzar")'>Inicio del juego</a></li>
+                <li><a href='@Url.Action("Creditos")'>Creditos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <audio autoplay>
+            <source src="/MusicaFondo.mp3" type="audio/mp3">
+    </audio>
+    <div style="padding:20px 10px 0px 10px;">
+        @RenderBody()
+    </div>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

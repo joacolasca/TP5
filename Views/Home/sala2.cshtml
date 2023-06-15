@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport",
+		content="width=device-width, initial-scale=1.0">
+	<title>Snake Game</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Snake Game</h1>
+	<canvas id="board"></canvas>
+    <script src="/js/site.js"></script>
+    <form action='@Url.Action("Habitacion")' method="post">
+    <input type="text" id="respuesta" name="clave">
+    <input type="hidden" name="sala" value="2">
+    <input type="submit" value="Enviar" style="background-color: orange; color: purple; padding: 10px 20px; font-size: 16px; border: none; border-radius: 4px; cursor: pointer;">
+    <button style="background-color: purple; color: orange; padding: 10px 20px; font-size: 16px; border: none; border-radius: 4px; cursor: pointer;" onclick="Recargar()">Volver a intentar</button>
+</form>
+<script>
+    function Recargar(){
+        document.location.reload();
+    }
+</script>
+</body>
+
+</html>
+
+<style>
+body {
+	text-align: center;
+}
+.geeks {
+	font-size: 40px;
+	font-weight: bold;
+	color: green;
+}
+
+body{
+    background-image: url('/Habitacion2.jpg'); 
+    background-size: cover;
+}
+h2, h1{
+    color: white;
+}
+</style>
